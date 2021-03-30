@@ -1,7 +1,7 @@
 #ready{
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-family: 'Lucida Sans';
 color: aqua;
 }
 #ready:hover{
-color: brown;
+color: black;
 }
