@@ -1,16 +1,25 @@
 #ready{
-font-family: 'Lucida Sans';
-color: gray;
+    font-family: 'ui-sans-serif';
+    color: gray;
 }
 #ready:hover{
-color: black;
+    color: black;
+}
+
+#image{
+    width: 100px;;
+    height: auto;
+}
+
+.proposal{
+    font-family: 'ui-sans-serif';
+    font-size: 2em;
 }
 
 .counter-button {
+    display: inline-block;
     padding: 10px 20px;
     font-size: 1.2em;
-    background-color: #4CAF50;
-    color: white;
     border: none;
     cursor: pointer;
 }
