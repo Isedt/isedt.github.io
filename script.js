@@ -14,7 +14,7 @@ function startCountdown() {
             clearInterval(interval);
             countdownElement.style.display = 'none'; // Hide countdown after countdown finishes
             var proposalText = document.getElementById('proposal-text');
-            proposalText.style.display = 'block'; // Show proposal text
+            proposalText.style.display = 'none'; // Show proposal text
         } 
     }, 800);
 }
