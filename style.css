@@ -26,7 +26,8 @@
 
 
 .custom-button {
-    display: inline-block;
+    display: block;
+    width: 8em;
     padding: 10px 20px;
     background-color: #007bff; /* Bootstrap's primary color */
     color: white;
