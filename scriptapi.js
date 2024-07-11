@@ -1,9 +1,9 @@
-fetch('http://172.206.253.174:8080/mssc-brewery/api/v1/beer/22aefb2d-18c1-4c16-897b-4325427ea20d', {
+fetch('https://172.206.253.174:8443/mssc-brewery/api/v1/beer/22aefb2d-18c1-4c16-897b-4325427ea20d', {
     method: 'GET',
     headers: {
         'Accept': 'application/json',
     },
-    mode: 'no-cors'
+
 })
 .then(response => {
     if (!response.ok) {
