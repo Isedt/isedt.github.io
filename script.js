@@ -12,9 +12,9 @@ function startCountdown() {
         count--;
         if (count < 0) {
             clearInterval(interval);
-            countdownElement.style.display = 'block'; // Hide countdown after countdown finishes
+            countdownElement.style.display = 'none'; // Hide countdown after countdown finishes
             var proposalText = document.getElementById('proposal-text');
-            proposalText.style.display = 'none'; // Show proposal text
+            proposalText.style.display = 'block'; // Show proposal text
         } 
     }, 800);
 }
