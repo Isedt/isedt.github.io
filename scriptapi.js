@@ -1,4 +1,4 @@
-fetch('https://isedt.dev:8443/mssc-brewery/api/v1/beer/22aefb2d-18c1-4c16-897b-4325427ea20d', {
+fetch('https://isedt.dev/mssc-brewery/api/v1/beer/22aefb2d-18c1-4c16-897b-4325427ea20d', {
     method: 'GET',
     headers: {
         'Accept': 'application/json',
