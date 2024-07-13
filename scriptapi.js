@@ -2,7 +2,6 @@ fetch('https://isedt.dev/mssc-brewery/api/v1/beer/22aefb2d-18c1-4c16-897b-432542
     method: 'GET',
     headers: {
         'Accept': 'application/json',
-        'Host': 'isedt.com'
     },
 })
 .then(response => {
