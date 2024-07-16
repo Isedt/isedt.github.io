@@ -7,8 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
+    justify-content: flex-start; /* Adjusted for better responsiveness */
 }
 
 h1 {
@@ -36,6 +35,7 @@ h1 {
 form {
     margin-top: 1rem;
     display: flex;
+    flex-wrap: wrap; /* Ensures items wrap on smaller screens */
     align-items: center;
 }
 
@@ -46,13 +46,13 @@ form label {
 
 form input[type="text"],
 form input[type="password"] {
+    flex: 1; /* Allow inputs to grow and fill available space */
     padding: 0.5rem;
     border: 1px solid #555555;
     background-color: #333333;
     color: #ffffff;
     border-radius: 3px;
     margin-right: 0.5rem;
-    width: 200px;
 }
 
 form button {
@@ -64,17 +64,9 @@ form button {
     border-radius: 3px;
 }
 
-form button:hover {
-    background-color: #45a049;
-}
-
 button#random-movie {
     margin-left: 0.5rem;
     background-color: #008CBA;
-}
-
-button#random-movie:hover {
-    background-color: #0077A3;
 }
 
 #update-movies {
@@ -87,6 +79,20 @@ button#random-movie:hover {
     border-radius: 3px;
 }
 
-#update-movies:hover {
-    background-color: #e53935;
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+
+    #movies-list {
+        max-width: 100%; /* Adjust max width for smaller screens */
+    }
+
+    form input[type="text"],
+    form input[type="password"] {
+        width: 100%; /* Full width inputs on smaller screens */
+        margin-right: 0; /* Remove margin right on smaller screens */
+        margin-bottom: 0.5rem; /* Add bottom margin for spacing */
+    }
 }
