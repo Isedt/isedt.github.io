@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Películas</title>
+    <link rel="stylesheet" href="pelisStyles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Nuestras Pelis pendientes amor :3</h1>
+        
+        <button id="update-movies">Update List</button>
+        <div id="movies-list">
+            <!-- Movies will be displayed here -->
+        </div>
+
+    
+        <form id="search-form">
+            <label for="movie-name">Search by Name:</label>
+            <input type="text" id="movie-name" name="movie-name">
+            <button type="submit">Search</button>
+        </form>
+    
+        <form id="save-form">
+            <label for="new-movie-name">New Movie Name:</label>
+            <input type="text" id="new-movie-name" name="new-movie-name">
+            <label for="save-pass">Password:</label>
+            <input type="password" id="save-pass" name="save-pass">
+            <button type="submit">Save Movie</button>
+        </form>
+    
+        <form id="random-form">
+            <label for="random-pass">Password:</label>
+            <input type="password" id="random-pass" name="random-pass">
+            <button type="button" id="random-movie">Random Movie</button>
+        </form>
+
+    <script src="pelisScripts.js"></script>
+</body>
+</html>

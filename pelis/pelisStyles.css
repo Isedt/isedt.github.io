@@ -1,0 +1,92 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#movies-list {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #333333;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#movies-list > div {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    background-color: #444444;
+    border-radius: 3px;
+}
+
+form {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+form label {
+    margin-right: 0.5rem;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    padding: 0.5rem;
+    border: 1px solid #555555;
+    background-color: #333333;
+    color: #ffffff;
+    border-radius: 3px;
+    margin-right: 0.5rem;
+    width: 200px;
+}
+
+form button {
+    padding: 0.5rem 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+button#random-movie {
+    margin-left: 0.5rem;
+    background-color: #008CBA;
+}
+
+button#random-movie:hover {
+    background-color: #0077A3;
+}
+
+#update-movies {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#update-movies:hover {
+    background-color: #e53935;
+}
