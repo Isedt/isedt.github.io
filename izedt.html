@@ -274,7 +274,7 @@
       statusMsg.textContent = actionType === 'start' ? "CONECTANDO CON AWS..." : "ENVIANDO SEÑAL DE APAGADO...";
 
       const payload = actionType === 'start' 
-        ? { action: "start", modpack: modpackInput, NoHomo: NoHomoInput }
+        ? { action: "start", modpack: modpackInput, token: NoHomoInput }
         : { action: "stop", NoHomo: NoHomoInput };
 
       try {
