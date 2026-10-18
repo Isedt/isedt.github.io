@@ -275,7 +275,7 @@
 
       const payload = actionType === 'start' 
         ? { action: "start", modpack: modpackInput, token: NoHomoInput }
-        : { action: "stop", NoHomo: NoHomoInput };
+        : { action: "stop", token: NoHomoInput };
 
       try {
         const response = await fetch(lambdaUrl, {
